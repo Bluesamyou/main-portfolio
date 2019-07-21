@@ -11,6 +11,13 @@ html{
     color: white;
 }
 
+@media only screen and (max-width: 720px) {
+    .card{
+        width : 100%; 
+    }
+    
+  }
+
 a{
     color: white;
 }
