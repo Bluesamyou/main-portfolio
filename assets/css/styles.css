@@ -9,6 +9,11 @@ html{
     background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
     width : 18em; 
     color: white;
+    font-size: large;
+}
+
+#avatar{
+    border-radius: 25px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -22,6 +27,11 @@ a{
     color: white;
 }
 
+
+a:hover{
+    color: greenyellow;
+}
 li{
     list-style-type: none;
 }
+
