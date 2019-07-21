@@ -12,14 +12,23 @@ html{
     font-size: large;
 }
 
-#avatar{
-    border-radius: 25px;
+.avatar{
+    height : 70px; 
+    width: 70px; 
+    border-radius: 100px;
 }
 
 @media only screen and (max-width: 576px) {
     .card{
         width : 100%; 
+        font-size : 25px;
     }
+
+    .media-content .title{
+        font-size: 30px !important;
+    }
+
+
     
   }
 
