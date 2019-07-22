@@ -10,6 +10,14 @@ body{
     background : rgba(0,0,0,0.2);
     color: white; 
     text-align: center;
-    border : 2px solid rgba(255,255,255,0.2);
+    /* border : 2px solid rgba(255,255,255,0.2); */
     border-radius: 25px; 
+}
+
+.socials{
+    margin-top : 20px;
+}
+
+.socials span {
+    margin: 5px;
 }
