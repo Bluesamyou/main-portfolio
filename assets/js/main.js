@@ -1,17 +1,44 @@
+var scene = new Scene({
+    '.personal-card' : {
+        0: {
+            transform : "scale(0.7)", 
+            opacity : 0
+        },
+
+        .5 : {
+            transform : "scale(1.2)", 
+        },
+
+        1:{
+            transform : "scale(1)", 
+            opacity : 1
+        }
+    }, 
+    '.avatar ' : {
+        0: {
+            transform : "scale(0)", 
+            opacity : 0
+        },
+        1:{
+            transform : "scale(1)", 
+            opacity : 1
+        }
+    }
+}, 
+{
+    duration : 0.7,
+    easing : Scene.EASE_IN_OUT,
+    selector: true, 
+}).playCSS();
+
+
+
 var typed = new Typed(".typed", {
     strings: ["Fullstack Developer", "Frontend Expert","Backend Guru","Web Automation Tester"],
     backSpeed : 40, 
     typeSpeed : 50, 
     loop : true,
     cursorChar: '|',
-
   });
 
-// const card = document.querySelector('.jumbotron');
-// const avatar = document.querySelector('#avatar');
-
-// const t1 = new TimelineMax();
-
-// t1.fromTo(card,2, {opacity : "0", height: "0%"}, {opacity : "1", height: "100%", ease: Power2.easeInOut})
-//     .fromTo(avatar, 2, {borderRadius : "0px"}, {borderRadius : "25px" , ease: Power2.easeInOut}, "-=2")
 
