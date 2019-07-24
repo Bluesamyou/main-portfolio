@@ -83,10 +83,22 @@ body{
     background : linear-gradient(180deg, #1EA2F1 0%, #C0453B 0.01%, #8F322A 98.44%);
 }
 
+#google:hover {
+    background : linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
+}
+
 #linked-in{
     background : linear-gradient(180deg, #0077B5 0%, #00466B 100%);
 }
 
+#linked-in:hover{
+    background : linear-gradient(180deg, #00466B 0%, #0077B5 100%);
+}
+
 #github{
     background: linear-gradient(180deg, #667EEA 0%, #764BA2 100%);
+}
+
+#github:hover{
+    background: linear-gradient(180deg, #764BA2 0%, #667EEA 100%);
 }
