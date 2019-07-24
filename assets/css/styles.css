@@ -8,6 +8,7 @@ body{
 .splash-container{
     height: 100vh;
     background: #4F4F4F url('../images/splatter.svg') no-repeat bottom right;
+    background-size: cover;
     display: grid; 
     align-content: center; 
     text-align: center;
