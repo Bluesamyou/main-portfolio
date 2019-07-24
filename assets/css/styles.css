@@ -7,9 +7,86 @@ body{
 
 .splash-container{
     height: 100vh;
-    background: black url('../images/splatter.svg') no-repeat bottom right;
+    background: #4F4F4F url('../images/splatter.svg') no-repeat bottom right;
     display: grid; 
     align-content: center; 
     text-align: center;
     color: white;
+    padding: none;
+}
+
+.avatar{
+    display: inline-block;
+    margin: 0 auto;
+    width: 125px; 
+    height: 125px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.avatar img{
+    width: 125px; 
+    height: 125px;
+    border-radius: 50%;
+    border : 2px solid white;;
+}
+.personal-card{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 400px;
+    background : linear-gradient(180deg, #FF6985 0%, #FF8E7D 100%, #C16D60 100%);
+    padding: 2em 2em;
+    align-items: centerl;
+    border-radius: 25px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom : 60px;
+}
+
+.personal-card h1 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.personal-card h3 {
+    font-size: 20px;
+    color: #FFC9C9;
+    line-height: 34px;
+    margin-bottom: 20px;
+}
+
+.personal-card h2 {
+    font-size: 25px;
+}
+
+.cta{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    align-content: center;
+    text-align: center;
+    margin: 1em 0.75em;
+    margin-bottom: 0px;
+    border: none;
+}
+
+.cta i{
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+#google {
+    background : linear-gradient(180deg, #1EA2F1 0%, #C0453B 0.01%, #8F322A 98.44%);
+}
+
+#linked-in{
+    background : linear-gradient(180deg, #0077B5 0%, #00466B 100%);
+}
+
+#github{
+    background: linear-gradient(180deg, #667EEA 0%, #764BA2 100%);
 }
