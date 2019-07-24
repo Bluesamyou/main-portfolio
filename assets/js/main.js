@@ -1,7 +1,7 @@
 var typed = new Typed(".typed", {
-    strings: ["Fullstack Developer", "Frontend Expert","Node Server and API developer","Web Automation Tester"],
-    backSpeed : 30, 
-    typeSpeed : 40, 
+    strings: ["Fullstack Developer", "Frontend Expert","Backend Guru","Web Automation Tester"],
+    backSpeed : 40, 
+    typeSpeed : 50, 
     loop : true,
     cursorChar: '|',
 
