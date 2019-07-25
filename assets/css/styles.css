@@ -22,7 +22,7 @@ body{
     width: 125px; 
     height: 125px;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 3;
 }
 
 .avatar img{
@@ -32,6 +32,7 @@ body{
     border : 2px solid white;;
 }
 .personal-card{
+    z-index: 2;
     display: inline-block;
     margin: 0 auto;
     max-width: 400px;
@@ -86,6 +87,7 @@ body{
 
 #google:hover {
     background : linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
+    transform : translateY(20);
 }
 
 #linked-in{
@@ -105,6 +107,7 @@ body{
 }
 
 .scroll-downs {
+    z-index: 2;
     margin: auto;
     width :34px;
     height: 55px;
@@ -132,4 +135,42 @@ body{
     0% { opacity: 0; }
     10% { transform: translateY(0); opacity: 1; }
     100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  .dev-icon{
+      font-size: 5em;
+      z-index: 1;
+      display: inline-block;
+
+  }
+
+  #react {
+    position: absolute;
+    left: 70%;
+  }
+
+  #mongo {
+    position: absolute;
+    left: 30%;
+  }
+
+
+  #express {
+    position: absolute;
+    left: 10%;
+  }
+
+  #bootstrap{
+    position: absolute;
+    left: 60%;
+  }
+
+  #node{
+    position: absolute;
+    left: 40%;
+  }
+
+  #python{
+    position: absolute;
+    left: 20%;
   }

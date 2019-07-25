@@ -40,7 +40,7 @@ var scene = new Scene({
                 transform : "translate(0px, 0px)"
             }, 
             options : {
-                delay : index * 0.5, 
+                delay : index * 0.5
 
             }
         }
@@ -52,6 +52,53 @@ var scene = new Scene({
     selector: true, 
 }).playCSS();
 
+randNumber = () => {
+    console.log(`${(Math.floor(Math.random())*70)+10}px`)
+    return `${(Math.floor(Math.random)*70)+10}px`
+}
+
+var sceneInf = new Scene({
+    '.dev-icon' : function(i){
+        return {
+            0 : {
+                position : 'absolute',
+                left : randNumber(),
+                opacity : "0",
+                transform : "translate(0px,0px)"
+            }, 1:{
+                position : 'absolute',
+                left : randNumber(),
+                opacity : "1",
+                transform : `translate(0px,-${(Math.floor(Math.random()*10000))}px)`
+            }, 
+            options : {
+                delay  : i * 1
+            }
+        }
+    }
+}, 
+{
+    duration : 10, 
+    easing : Scene.EASE_IN_OUT,
+    iterationCount: "infinite",
+    selector: true, 
+}).playCSS()
+
+// var sceneInf  = new Scene({
+//     '.dev-icon' : {
+//         0 : {
+//             transform : "rotate(0deg)"
+//         }, 
+//         1 : {
+//             transform : "rotate(360deg)"
+//         }
+//     }
+// }, {
+//     duration : 3, 
+//     easing : Scene.EASE_IN_OUT,
+//     iterationCount: "infinite",
+//     selector: true, 
+// }).playCSS()
 
 
 var typed = new Typed(".typed", {
