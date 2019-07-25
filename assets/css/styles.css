@@ -137,40 +137,10 @@ body{
     100% { transform: translateY(15px); opacity: 0;}
   }
 
-  .dev-icon{
-      font-size: 5em;
-      z-index: 1;
-      display: inline-block;
-
-  }
-
-  #react {
-    position: absolute;
-    left: 70%;
-  }
-
-  #mongo {
-    position: absolute;
-    left: 30%;
-  }
-
-
-  #express {
-    position: absolute;
-    left: 10%;
-  }
-
-  #bootstrap{
-    position: absolute;
-    left: 60%;
-  }
-
-  #node{
-    position: absolute;
-    left: 40%;
-  }
-
-  #python{
+#laptop{
     position: absolute;
     left: 20%;
-  }
+    top: 10%;
+    transform: rotate(30deg);
+    width : 120%;
+}

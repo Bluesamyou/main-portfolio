@@ -87,21 +87,23 @@ var sceneInf = new Scene({
     selector: true, 
 }).playCSS()
 
-// var sceneInf  = new Scene({
-//     '.dev-icon' : {
-//         0 : {
-//             transform : "rotate(0deg)"
-//         }, 
-//         1 : {
-//             transform : "rotate(360deg)"
-//         }
-//     }
-// }, {
-//     duration : 3, 
-//     easing : Scene.EASE_IN_OUT,
-//     iterationCount: "infinite",
-//     selector: true, 
-// }).playCSS()
+
+var testAnim = new Scene({
+    '#code-1' : {
+        0:{
+            width: "0px"
+        },
+        1:{
+            width : "39px"
+        }
+    }
+},{
+    selector: true, 
+    easing : Scene.EASE_IN_OUT, 
+    iterationCount: "infinite", 
+    duration : 3
+    
+}).playCSS()
 
 
 var typed = new Typed(".typed", {
