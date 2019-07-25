@@ -1,15 +1,18 @@
 var scene = new Scene({
     '.personal-card' : {
         0: {
+            height : "0px",
             transform : "scale(0.7)", 
             opacity : 0
         },
 
         .5 : {
+            height : "100%",
             transform : "scale(1.2)", 
         },
 
         1:{
+            height : "100%",
             transform : "scale(1)", 
             opacity : 1
         }
