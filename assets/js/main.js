@@ -96,7 +96,8 @@ var testAnim = new Scene({
         1:{
             width : "39px"
         }
-    }
+    },
+
 },{
     selector: true, 
     easing : Scene.EASE_IN_OUT, 

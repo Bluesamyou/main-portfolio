@@ -138,9 +138,33 @@ body{
   }
 
 #laptop{
+    height: 17%;
     position: absolute;
     left: 20%;
     top: 10%;
+    transform: rotate(-30deg);
+}
+
+#server{
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
     transform: rotate(30deg);
-    width : 120%;
+}
+
+#iphone{
+    height: 20%;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    transform: rotate(20deg);
+}
+
+#terminal{
+    height: 25%;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+    transform: rotate(-30deg);
 }
