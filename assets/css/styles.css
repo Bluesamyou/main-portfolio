@@ -184,3 +184,41 @@ body{
     bottom: 40%;
     transform: rotate(10deg);
 }
+
+@media only screen and (max-width: 450px) {
+    #laptop{
+        height: 17%;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        transform: rotate(-30deg);
+    }
+
+    #server{
+        display: none;
+    }
+    #iphone{
+        height: 20%;
+        position: absolute;
+        right: 10%;
+        top: 10%;
+        transform: rotate(20deg);
+    }
+
+    #terminal{
+        height: 25%;
+        position: absolute;
+        left: 30%;
+        top: 5%;
+        transform: rotate(5deg);
+    }
+    
+    #graph{
+        display: none;
+    }
+    
+    #idea{
+        display: none;
+    }
+
+  }
