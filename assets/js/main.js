@@ -1,3 +1,5 @@
+var rellax = new Rellax('.rellax');
+
 var scene = new Scene({
     '.personal-card' : {
         0: {
