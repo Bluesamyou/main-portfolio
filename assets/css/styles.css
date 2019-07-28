@@ -148,7 +148,7 @@ body{
 #server{
     height: 20%;
     position: absolute;
-    left: 10%;
+    left: 15%;
     bottom: 10%;
     transform: rotate(30deg);
 }
@@ -156,15 +156,31 @@ body{
 #iphone{
     height: 20%;
     position: absolute;
-    right: 10%;
-    top: 20%;
+    right: 20%;
+    top: 10%;
     transform: rotate(20deg);
 }
 
 #terminal{
     height: 20%;
     position: absolute;
-    right: 5%;
-    bottom: 20%;
+    right: 15%;
+    bottom: 10%;
     transform: rotate(-30deg);
+}
+
+#graph{
+    height: 17%;
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+    transform: rotate(15deg);
+}
+
+#idea{
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    transform: rotate(10deg);
 }
