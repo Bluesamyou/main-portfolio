@@ -87,7 +87,6 @@ body{
 
 #google:hover {
     background : linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
-    transform : translateY(20);
 }
 
 #linked-in{
@@ -221,4 +220,12 @@ body{
         display: none;
     }
 
+  }
+
+
+  .portfolio{
+    margin: 0px;
+    height: 50vh;
+    background: #724AA0 url('../images/splatter-2.svg')no-repeat top;
+    padding: 0;
   }
