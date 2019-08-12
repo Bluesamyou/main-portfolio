@@ -1,7 +1,7 @@
 <svg width="860" height="1720" viewBox="0 0 860 1720" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <path d="M35 120C35 63.667 80.667 18 137 18H710C766.333 18 812 63.667 812 120V120H35V120Z" fill="#353A3F"/>
 <g filter="url(#filter0_d)">
-<path d="M58 120H812V1643C812 1670.61 789.614 1693 762 1693H108C80.3857 1693 58 1670.61 58 1643V120Z" fill="url(#pattern0)"/>
+<path d="M56 120H810V1643C810 1670.61 787.614 1693 760 1693H106C78.3857 1693 56 1670.61 56 1643V120Z" fill="url(#pattern0)"/>
 </g>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M728 2H138C68.4121 2 12 58.4121 12 128V232C8.68629 232 6 234.686 6 238V290C6 293.314 8.68629 296 12 296V356C8.68629 356 6 358.686 6 362V474C6 477.314 8.68629 480 12 480V512C8.68629 512 6 514.686 6 518V630C6 633.314 8.68629 636 12 636V1592C12 1661.59 68.4121 1718 138 1718H728C797.588 1718 854 1661.59 854 1592V596C857.314 596 860 593.314 860 590V402C860 398.686 857.314 396 854 396V128C854 58.4121 797.588 2 728 2ZM22 128C22 63.935 73.935 12 138 12H728C792.065 12 844 63.935 844 128V1592C844 1656.07 792.065 1708 728 1708H138C73.935 1708 22 1656.07 22 1592V128Z" fill="#AABBCC"/>
 <path opacity="0.6" fill-rule="evenodd" clip-rule="evenodd" d="M300 1645C300 1642.24 302.239 1640 305 1640H563C565.761 1640 568 1642.24 568 1645C568 1647.76 565.761 1650 563 1650H305C302.239 1650 300 1647.76 300 1645Z" fill="#333333"/>
@@ -11,7 +11,7 @@
 <path d="M388 60C384.686 60 382 62.6863 382 66C382 69.3137 384.686 72 388 72H476C479.314 72 482 69.3137 482 66C482 62.6863 479.314 60 476 60H388Z" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_d" x="54" y="120" width="762" height="1581" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="52" y="120" width="762" height="1581" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="4"/>
