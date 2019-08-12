@@ -1,48 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
-body{
+body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
 }
 
-.splash-container{
+.splash-container {
     height: 100vh;
     background: #4F4F4F url('../images/splatter.svg') no-repeat bottom right;
     background-size: cover;
-    display: grid; 
-    align-content: center; 
+    display: grid;
+    align-content: center;
     text-align: center;
     color: white;
     padding: none;
 }
 
-.avatar{
+.avatar {
     display: inline-block;
     margin: 0 auto;
-    width: 125px; 
+    width: 125px;
     height: 125px;
     border-radius: 50%;
     z-index: 3;
 }
 
-.avatar img{
-    width: 125px; 
+.avatar img {
+    width: 125px;
     height: 125px;
     border-radius: 50%;
-    border : 2px solid white;;
+    border: 2px solid white;
+    ;
 }
-.personal-card{
+
+.personal-card {
     z-index: 2;
     display: inline-block;
     margin: 0 auto;
     max-width: 400px;
-    background : linear-gradient(180deg, #FF6985 0%, #FF8E7D 100%, #C16D60 100%);
+    background: linear-gradient(180deg, #FF6985 0%, #FF8E7D 100%, #C16D60 100%);
     padding: 2em 2em;
     align-items: centerl;
     border-radius: 25px;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
     position: relative;
-    bottom : 60px;
+    bottom: 60px;
 }
 
 .personal-card h1 {
@@ -64,7 +66,7 @@ body{
     font-size: 25px;
 }
 
-.cta{
+.cta {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -76,42 +78,43 @@ body{
     border: none;
 }
 
-.cta i{
+.cta i {
     font-size: 25px;
     padding-top: 5px;
 }
 
 #google {
-    background : linear-gradient(180deg, #1EA2F1 0%, #C0453B 0.01%, #8F322A 98.44%);
+    background: linear-gradient(180deg, #1EA2F1 0%, #C0453B 0.01%, #8F322A 98.44%);
 }
 
 #google:hover {
-    background : linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
+    background: linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
 }
 
-#linked-in{
-    background : linear-gradient(180deg, #0077B5 0%, #00466B 100%);
+#linked-in {
+    background: linear-gradient(180deg, #0077B5 0%, #00466B 100%);
 }
 
-#linked-in:hover{
-    background : linear-gradient(180deg, #00466B 0%, #0077B5 100%);
+#linked-in:hover {
+    background: linear-gradient(180deg, #00466B 0%, #0077B5 100%);
 }
 
-#github{
+#github {
     background: linear-gradient(180deg, #667EEA 0%, #764BA2 100%);
 }
 
-#github:hover{
+#github:hover {
     background: linear-gradient(180deg, #764BA2 0%, #667EEA 100%);
 }
 
 .scroll-downs {
     z-index: 2;
     margin: auto;
-    width :34px;
+    width: 34px;
     height: 55px;
-  }
-  .mousey {
+}
+
+.mousey {
     width: 3px;
     padding: 10px 15px;
     height: 35px;
@@ -119,24 +122,36 @@ body{
     border-radius: 25px;
     opacity: 0.75;
     box-sizing: content-box;
-  }
-  .scroller {
+}
+
+.scroller {
     width: 3px;
     height: 10px;
     border-radius: 25%;
     background-color: #fff;
     animation-name: scroll;
     animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
     animation-iteration-count: infinite;
-  }
-  @keyframes scroll {
-    0% { opacity: 0; }
-    10% { transform: translateY(0); opacity: 1; }
-    100% { transform: translateY(15px); opacity: 0;}
-  }
+}
 
-#laptop{
+@keyframes scroll {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+#laptop {
     height: 17%;
     position: absolute;
     left: 20%;
@@ -144,7 +159,7 @@ body{
     transform: rotate(-30deg);
 }
 
-#server{
+#server {
     height: 20%;
     position: absolute;
     left: 15%;
@@ -152,7 +167,7 @@ body{
     transform: rotate(30deg);
 }
 
-#iphone{
+#iphone {
     height: 20%;
     position: absolute;
     right: 20%;
@@ -160,7 +175,7 @@ body{
     transform: rotate(20deg);
 }
 
-#terminal{
+#terminal {
     height: 20%;
     position: absolute;
     right: 15%;
@@ -168,7 +183,7 @@ body{
     transform: rotate(-30deg);
 }
 
-#graph{
+#graph {
     height: 17%;
     position: absolute;
     right: 5%;
@@ -176,7 +191,7 @@ body{
     transform: rotate(15deg);
 }
 
-#idea{
+#idea {
     height: 20%;
     position: absolute;
     left: 10%;
@@ -185,7 +200,7 @@ body{
 }
 
 @media only screen and (max-width: 450px) {
-    #laptop{
+    #laptop {
         height: 17%;
         position: absolute;
         left: 5%;
@@ -193,10 +208,11 @@ body{
         transform: rotate(-30deg);
     }
 
-    #server{
+    #server {
         display: none;
     }
-    #iphone{
+
+    #iphone {
         height: 20%;
         position: absolute;
         right: 10%;
@@ -204,28 +220,57 @@ body{
         transform: rotate(20deg);
     }
 
-    #terminal{
+    #terminal {
         height: 25%;
         position: absolute;
         left: 30%;
         top: 5%;
         transform: rotate(5deg);
     }
-    
-    #graph{
-        display: none;
-    }
-    
-    #idea{
+
+    #graph {
         display: none;
     }
 
-  }
+    #idea {
+        display: none;
+    }
+
+}
 
 
-  .portfolio{
-    margin: 0px;
-    height: 50vh;
-    background: #724AA0 url('../images/splatter-2.svg')no-repeat top;
+.portfolio {
+    height: 100vh;
+    background: #4f4f4f;
     padding: 0;
-  }
+}
+
+.portfolio h1 {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.portfolio-div {
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    max-width: 500px;
+}
+
+#d-track {
+    position: relative;
+    left: -10%;
+}
+
+.text-content {
+    text-align: center;
+    color: white;
+}
+
+.portfolio-image {
+    height: 200px;
+    width: 100px;
+}

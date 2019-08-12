@@ -15,10 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
         integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
 
-    <!-- Devicon CDN -->
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -43,37 +41,53 @@
 
 
         </div>
-        <img src="./assets/images/laptop.svg" alt="" id="laptop" class="rellax" data-rellax-speed="1">   
-        <img src="./assets/images/server.svg" alt="" id="server"class="rellax" data-rellax-speed="4">
+        <img src="./assets/images/laptop.svg" alt="" id="laptop" class="rellax" data-rellax-speed="1">
+        <img src="./assets/images/server.svg" alt="" id="server" class="rellax" data-rellax-speed="4">
         <img src="./assets/images/iphone.svg" alt="" id="iphone" class="rellax" data-rellax-speed="2">
         <img src="./assets/images/terminal.svg" alt="" id="terminal" class="rellax" data-rellax-speed="6">
         <img src="./assets/images/idea.svg" alt="" id="idea" class="rellax" data-rellax-speed="2">
         <img src="./assets/images/graphs.svg" alt="" id="graph" class="rellax" data-rellax-speed="5">
-        
 
-        <div class="scroll-downs" >
+
+        <div class="scroll-downs">
             <div class="mousey">
                 <div class="scroller"></div>
             </div>
         </div>
 
-        
+
     </div>
 
     <div class="portfolio">
-        
+        <div class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="container">
+            <div data-aos="zoom-in-down" class="row portfolio-div" id="d-track">
+                <div class="col-3">
+                    <img src="./assets/images/d-track.svg" alt="iphone with app" class="portfolio-image"
+                        id="loan-car" />
+                </div>
+                <div class="col-9 text-content">
+                    <h3>D-tracker</h3>
+                    <h5>A React based web app that assists car dealerships with tracking vehicles out on loan. Utilises
+                        firebase for Storage, Hosting and Access Management</h5>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 
-
-
-
     <!-- Scene.js CDN -->
-    <script src="//daybrush.com/scenejs/release/latest/dist/scene.min.js"></script>
-    <!-- Typed.js -->
+    <script src="//daybrush.com/scenejs/release/latest/dist/scene.min.js"> </script> <!-- Typed.js -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <!-- Rellax JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js"
+        integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>
+    <!-- AOS JS  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom JS -->
     <script src="./assets/js/main.js"></script>
 
