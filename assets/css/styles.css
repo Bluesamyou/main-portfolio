@@ -1,222 +1,290 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
 body {
-    margin: 0;
-    font-family: 'Nunito', sans-serif;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 .splash-container {
-    height: 100vh;
-    background: #4F4F4F url('../images/splatter.svg') no-repeat bottom right;
-    background-size: cover;
-    display: grid;
-    align-content: center;
-    text-align: center;
-    color: white;
-    padding: none;
+  height: 100vh;
+  background: #4f4f4f url("../images/splatter.svg") no-repeat bottom right;
+  background-size: cover;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  color: white;
+  padding: none;
 }
 
 .avatar {
-    display: inline-block;
-    margin: 0 auto;
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    z-index: 3;
+  display: inline-block;
+  margin: 0 auto;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  z-index: 3;
 }
 
 .avatar img {
-    width: 125px;
-    height: 125px;
-    border-radius: 50%;
-    border: 2px solid white;
-    ;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 2px solid white;
 }
 
 .personal-card {
-    z-index: 2;
-    display: inline-block;
-    margin: 0 auto;
-    max-width: 400px;
-    background: linear-gradient(180deg, #FF6985 0%, #FF8E7D 100%, #C16D60 100%);
-    padding: 2em 2em;
-    align-items: centerl;
-    border-radius: 25px;
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
-    position: relative;
-    bottom: 60px;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 400px;
+  background: linear-gradient(180deg, #ff6985 0%, #ff8e7d 100%, #c16d60 100%);
+  padding: 2em 2em;
+  align-items: centerl;
+  border-radius: 25px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  bottom: 60px;
 }
 
 .personal-card h1 {
-    font-size: 30px;
-    line-height: 35px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    margin-top: 50px;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 50px;
 }
 
 .personal-card h3 {
-    font-size: 20px;
-    color: #FFC9C9;
-    line-height: 34px;
-    margin-bottom: 20px;
+  font-size: 20px;
+  color: #ffc9c9;
+  line-height: 34px;
+  margin-bottom: 20px;
 }
 
 .typed {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .cta {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    color: white;
-    align-content: center;
-    text-align: center;
-    margin: 1em 0.75em;
-    margin-bottom: 0px;
-    border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: white;
+  align-content: center;
+  text-align: center;
+  margin: 1em 0.75em;
+  margin-bottom: 0px;
+  border: none;
 }
 
 .cta i {
-    font-size: 25px;
-    padding-top: 5px;
+  font-size: 25px;
+  padding-top: 5px;
 }
 
 #google {
-    background: linear-gradient(180deg, #1EA2F1 0%, #C0453B 0.01%, #8F322A 98.44%);
+  background: linear-gradient(
+    180deg,
+    #1ea2f1 0%,
+    #c0453b 0.01%,
+    #8f322a 98.44%
+  );
 }
 
 #google:hover {
-    background: linear-gradient(180deg, #1EA2F1 0%, #8F322A 0.01%, #C0453B 98.44%);
+  background: linear-gradient(
+    180deg,
+    #1ea2f1 0%,
+    #8f322a 0.01%,
+    #c0453b 98.44%
+  );
 }
 
 #linked-in {
-    background: linear-gradient(180deg, #0077B5 0%, #00466B 100%);
+  background: linear-gradient(180deg, #0077b5 0%, #00466b 100%);
 }
 
 #linked-in:hover {
-    background: linear-gradient(180deg, #00466B 0%, #0077B5 100%);
+  background: linear-gradient(180deg, #00466b 0%, #0077b5 100%);
 }
 
 #github {
-    background: linear-gradient(180deg, #667EEA 0%, #764BA2 100%);
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
 }
 
 #github:hover {
-    background: linear-gradient(180deg, #764BA2 0%, #667EEA 100%);
+  background: linear-gradient(180deg, #764ba2 0%, #667eea 100%);
 }
 
 .scroll-downs {
-    z-index: 2;
-    margin: auto;
-    width: 34px;
-    height: 55px;
+  z-index: 2;
+  margin: auto;
+  width: 34px;
+  height: 55px;
 }
 
 .mousey {
-    width: 3px;
-    padding: 10px 15px;
-    height: 35px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    opacity: 0.75;
-    box-sizing: content-box;
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
 }
 
 .scroller {
-    width: 3px;
-    height: 10px;
-    border-radius: 25%;
-    background-color: #fff;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
-    animation-iteration-count: infinite;
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
+  animation-iteration-count: infinite;
 }
 
 @keyframes scroll {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    10% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 
-    100% {
-        transform: translateY(15px);
-        opacity: 0;
-    }
+  100% {
+    transform: translateY(15px);
+    opacity: 0;
+  }
 }
 
 #laptop {
-    height: 17%;
-    position: absolute;
-    left: 20%;
-    top: 10%;
-    transform: rotate(-30deg);
+  height: 17%;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  transform: rotate(-30deg);
 }
 
 #server {
-    height: 20%;
-    position: absolute;
-    left: 15%;
-    bottom: 10%;
-    transform: rotate(30deg);
+  height: 20%;
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  transform: rotate(30deg);
 }
 
 #iphone {
-    height: 20%;
-    position: absolute;
-    right: 20%;
-    top: 10%;
-    transform: rotate(20deg);
+  height: 20%;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  transform: rotate(20deg);
 }
 
 #terminal {
-    height: 20%;
-    position: absolute;
-    right: 15%;
-    bottom: 10%;
-    transform: rotate(-30deg);
+  height: 20%;
+  position: absolute;
+  right: 15%;
+  bottom: 10%;
+  transform: rotate(-30deg);
 }
 
 #graph {
-    height: 17%;
-    position: absolute;
-    right: 5%;
-    bottom: 40%;
-    transform: rotate(15deg);
+  height: 17%;
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+  transform: rotate(15deg);
 }
 
 #idea {
-    height: 20%;
-    position: absolute;
-    left: 10%;
-    bottom: 40%;
-    transform: rotate(10deg);
+  height: 20%;
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+  transform: rotate(10deg);
 }
 
 .portfolio {
-    text-align: center;
-    /* height: 150vh; */
-    background: #4f4f4f;
-    padding: 0;
+  text-align: center;
+  /* height: 150vh; */
+  background: #4f4f4f;
+  padding: 0;
 }
 
 .portfolio h1 {
-    padding-top: 20px;
-    color: white;
-    text-align: center;
-    font-size: 65px;
-    margin-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  margin-bottom: 20px;
 }
 
 .portfolio-div {
-    /* height: 300px; */
-    display: inline-flex;
+  /* height: 300px; */
+  display: inline-flex;
+  margin-right: 200px;
+  padding: 20px 20px;
+  border-radius: 25px;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  max-width: 400px;
+  margin-bottom: 30px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+  text-align: center;
+  color: white;
+  padding: 10%;
+}
+
+.portfolio-image {
+  height: 400px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 450px) {
+  #laptop {
+    height: 17%;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    transform: rotate(-30deg);
+  }
+
+  #server {
+    display: none;
+  }
+
+  #iphone {
+    height: 20%;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    transform: rotate(20deg);
+  }
+
+  #terminal {
+    height: 25%;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    transform: rotate(5deg);
+  }
+
+  #graph {
+    display: none;
+  }
+
+  #idea {
+    display: none;
+  }
+
+  .portfolio-div {
+    display: block;
     margin: 20px;
     padding: 20px 20px;
     border-radius: 25px;
@@ -224,72 +292,10 @@ body {
     max-width: 600px;
     margin-bottom: 30px;
     box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+  }
 
-}
-
-.text-content {
+  .text-content h5 {
     text-align: center;
-    color: white;
-    padding: 10%;
-}
-
-.portfolio-image {
-    height: 400px;
-    width: 200px;
-}
-
-@media only screen and (max-width: 450px) {
-    #laptop {
-        height: 17%;
-        position: absolute;
-        left: 5%;
-        top: 10%;
-        transform: rotate(-30deg);
-    }
-
-    #server {
-        display: none;
-    }
-
-    #iphone {
-        height: 20%;
-        position: absolute;
-        right: 10%;
-        top: 10%;
-        transform: rotate(20deg);
-    }
-
-    #terminal {
-        height: 25%;
-        position: absolute;
-        left: 30%;
-        top: 5%;
-        transform: rotate(5deg);
-    }
-
-    #graph {
-        display: none;
-    }
-
-    #idea {
-        display: none;
-    }
-
-
-    .portfolio-div {
-        display: block;
-        margin: 20px;
-        padding: 20px 20px;
-        border-radius: 25px;
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        max-width: 600px;
-        margin-bottom: 30px;
-        box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
-
-    }
-
-    .text-content h5 {
-        text-align: center;
-        font-size: 90%;
-    }
+    font-size: 90%;
+  }
 }
