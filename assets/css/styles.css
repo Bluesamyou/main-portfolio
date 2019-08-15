@@ -112,6 +112,14 @@ body {
   background: linear-gradient(180deg, #764ba2 0%, #667eea 100%);
 }
 
+#resume {
+  background: linear-gradient(180deg, #ff5959 0%, #a33a3a 100%);
+}
+
+#resume:hover {
+  background: linear-gradient(180deg, #a33a3a 0%, #ff5959 100%);
+}
+
 .scroll-downs {
   z-index: 2;
   margin: auto;
