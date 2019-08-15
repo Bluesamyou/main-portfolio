@@ -83,21 +83,17 @@ body {
 }
 
 #google {
-  background: linear-gradient(
-    180deg,
-    #1ea2f1 0%,
-    #c0453b 0.01%,
-    #8f322a 98.44%
-  );
+  background: linear-gradient(180deg,
+      #1ea2f1 0%,
+      #c0453b 0.01%,
+      #8f322a 98.44%);
 }
 
 #google:hover {
-  background: linear-gradient(
-    180deg,
-    #1ea2f1 0%,
-    #8f322a 0.01%,
-    #c0453b 98.44%
-  );
+  background: linear-gradient(180deg,
+      #1ea2f1 0%,
+      #8f322a 0.01%,
+      #c0453b 98.44%);
 }
 
 #linked-in {
@@ -247,6 +243,12 @@ body {
   width: 200px;
 }
 
+.desktop {
+  width: 500px;
+  position: absolute;
+  top: 0px;
+}
+
 @media only screen and (max-width: 450px) {
   #laptop {
     height: 17%;
@@ -285,6 +287,7 @@ body {
   }
 
   .portfolio-div {
+    height: 250px;
     display: block;
     margin: 20px;
     padding: 20px 20px;
