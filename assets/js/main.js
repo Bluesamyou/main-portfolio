@@ -101,6 +101,12 @@ $(document).ready(() => {
     $('#google').on('click', function (evt) {
         evt.preventDefault()
 
-        window.location.href = "mailto:mail@example.org";
+        Swal.fire({
+            background: 'rgba(0,0,0,0.9)',
+            html: `<h3 style="color:white;">You can email me at : shevids@gmail.com</h3>`,
+            backdrop: 'rgba(255,105,180,0.4)'
+
+
+        })
     })
 })
