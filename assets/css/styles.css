@@ -305,6 +305,15 @@ body {
   }
 }
 
+.portfolio-icon {
+  font-size: 48px;
+}
+
+.firebase-icon {
+  position: relative;
+  bottom: 20px;
+}
+
 @media only screen and (max-width: 630px) {
   .portfolio-div {
     display: block;
@@ -322,3 +331,9 @@ body {
     font-size: 90%;
   }
 }
+
+/* @media only screen and (max-width: 768px) {
+  .firebase-icon {
+    position: static;
+  }
+} */
